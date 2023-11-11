@@ -3,7 +3,6 @@ import java.util.Map;
 
 public class Fibonacci {
 
-    // Versão com memoização
     private static Map<Integer, Long> memo = new HashMap<>();
 
     public static long fibonacciMemoizado(int n) {
@@ -20,8 +19,6 @@ public class Fibonacci {
 
         return resultado;
     }
-
-    // Outras versões aqui...
     
     public static void main(String[] args) {
         int n = 40;  // Ajuste conforme necessário
