@@ -1,6 +1,5 @@
 public class Fibonacci {
 
-    // Versão recursiva
     public static long fibonacciRecursivo(int n) {
         if (n <= 1) {
             return n;
@@ -8,8 +7,6 @@ public class Fibonacci {
             return fibonacciRecursivo(n - 1) + fibonacciRecursivo(n - 2);
         }
     }
-
-    // Outras versões aqui...
     
     public static void main(String[] args) {
         int n = 40;  // Ajuste conforme necessário
