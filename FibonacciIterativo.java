@@ -1,6 +1,5 @@
 public class Fibonacci {
 
-    // Versão iterativa
     public static long fibonacciIterativo(int n) {
         if (n <= 1) {
             return n;
@@ -17,8 +16,6 @@ public class Fibonacci {
 
         return fibAtual;
     }
-
-    // Outras versões aqui...
     
     public static void main(String[] args) {
         int n = 40;  // Ajuste conforme necessário
